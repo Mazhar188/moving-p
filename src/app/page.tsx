@@ -1,5 +1,5 @@
 'use client'
-
+import footer from '@/components/Footer'
 import FeaturedCoures from '@/components/FeaturedCourses'
 import FeaturedWebinars from '@/components/FeaturedWebinars'
 import HeroSection from '@/components/HeroSection'
@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar'
 import MusicMovingCardsDemo from '@/components/Testmoving'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
+import Footer from '@/components/Footer'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <WhyChooseUs/>
       <FeaturedWebinars/>
       <MusicMovingCardsDemo/>
+      <Footer/>
     </main>
   )
 }
