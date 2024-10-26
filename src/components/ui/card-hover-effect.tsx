@@ -5,7 +5,7 @@
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
-import { useState } from "react";
+
 
 export const HoverEffect = ({
   items,
@@ -20,7 +20,7 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
 
   return (
     <div
@@ -34,11 +34,10 @@ export const HoverEffect = ({
           href={item?.link}
           key={item?.link}
           className="relative group  block p-2 h-full w-full"
-          onMouseEnter={() => setHoveredIndex(idx)}
-          onMouseLeave={() => setHoveredIndex(null)}
+         
         >
           <AnimatePresence>
-            {hoveredIndex === idx && (
+            
               <motion.span
                 className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
@@ -52,7 +51,7 @@ export const HoverEffect = ({
                   transition: { duration: 0.15, delay: 0.2 },
                 }}
               />
-            )}
+            )
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>

@@ -1,5 +1,4 @@
 'use client'
-import footer from '@/components/Footer'
 import FeaturedCoures from '@/components/FeaturedCourses'
 import FeaturedWebinars from '@/components/FeaturedWebinars'
 import HeroSection from '@/components/HeroSection'
