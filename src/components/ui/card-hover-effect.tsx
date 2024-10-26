@@ -29,7 +29,7 @@ export const HoverEffect = ({
         className
       )}
     >
-      {items.map((item, idx) => (
+      {items.map((item,) => (
         <Link
           href={item?.link}
           key={item?.link}
