@@ -1,22 +1,24 @@
+  
 {
+   
     "courses":[
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Generative aftificial intelligence",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Use generative AI to create dynamic, personalized content and optimize workflows, unlocking creativity and efficiency for advanced users.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": true,
-        "image":"/ai.jpg"
+        "image":"/ai-pic.png"
 
         },
 
         {
-            "id":1,
-            "title":"Game Development",
+            "id":2,
+            "title":"Next.js",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Level up your Next.js expertise with cutting-edge techniques designed for intermediate to advanced developers.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": false,
@@ -25,51 +27,18 @@
         },
 
         {
-            "id":1,
-            "title":"Game Development",
+            "id":3,
+            "title":"Digital marketing",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Level up your digital marketing skills with advanced strategies and create impactful campaigns from concept to execution.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": true,
         "image":"/digi.jpg"
 
-        },
-
-        {
-            "id":1,
-            "title":"Game Development",
-            "slug": "game-development",
-        "description": "lorem ipsum jijo",
-        "price": 99.99,
-        "instructor": "mali",
-        "isFeatured": false,
-        "image":"/next.jpg"
-
-        },
-
-        {
-            "id":1,
-            "title":"Game Development",
-            "slug": "game-development",
-        "description": "lorem ipsum jijo",
-        "price": 99.99,
-        "instructor": "mali",
-        "isFeatured": true,
-        "image":"/next.jpg"
-
-        },
-
-        {
-            "id":1,
-            "title":"Game Development",
-            "slug": "game-development",
-        "description": "lorem ipsum jijo",
-        "price": 99.99,
-        "instructor": "mali",
-        "isFeatured": true,
-        "image":"/next.jpg"
-
         }
+       
+
+       
     ]
 }

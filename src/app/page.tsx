@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar'
 import MusicMovingCardsDemo from '@/components/Testmoving'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
-import Footer from '@/components/Footer'
+import Instructor from '@/components/instructer'
 
 const page = () => {
   return (
@@ -17,7 +17,8 @@ const page = () => {
       <WhyChooseUs/>
       <FeaturedWebinars/>
       <MusicMovingCardsDemo/>
-      <Footer/>
+      <Instructor/>
+      
     </main>
   )
 }

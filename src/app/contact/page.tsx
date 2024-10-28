@@ -1,10 +1,8 @@
 "use client";
-
 import React from 'react';
-import { Meteors } from '@/components/ui/meteors';
+import { Meteors } from '@/components/ui/metors';
 import Image from 'next/image';
-import avaImage from '@/app/public/first.pic.jpg'
-
+import myImage from '@/app/public/first.pic.jpg'
 
 const ContactPage = () => {
   return (
@@ -38,12 +36,11 @@ const ContactPage = () => {
         <div className="hidden md:flex items-center justify-center w-1/2">
           <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-gray-700">
             <Image
-            src={avaImage}
-            alt='Contact Us'
-            fill
-            className='rounded-full'
+              src={myImage}
+              alt="Contact Us"
+              fill
+              className="rounded-full"
             />
-            
           </div>
         </div>
       </div>
